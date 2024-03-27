@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+input{
+    margin-bottom: 28px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+form button{
+    padding: 8px;
+    width: 130px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #2D9A73;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #2D9A73;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+form button:hover{
+    background-color: #2D9A73;
+    color: white;
+}
